@@ -4,10 +4,11 @@
 #include <string>
 
 class Drug{
+
 public:
 	static const int NAME=0, PRICE=1, NUM=2;
 
-	virtual ~Drug(){}
+	virtual ~Drug() =default;
 
 	Drug()=default;
 	Drug(long i,std::string n,double p,int nn);

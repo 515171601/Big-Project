@@ -1,7 +1,9 @@
 ﻿#ifndef BARGAINDRUG_H
 #define BARGAINDRUG_H
 
-class BargainDrug : public Commodity{
+#include "drug.h"
+
+class BargainDrug : public Drug{
 public:
 	static const int SPECIALPRICE=3;
 
